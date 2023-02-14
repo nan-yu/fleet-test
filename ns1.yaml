@@ -4,11 +4,9 @@ metadata:
   annotations:
     fleet.gke.io/created-by-actuation: "true"
     fleet.gke.io/fns-resource-link: //gkehub.googleapis.com/projects/877381117738/locations/global/namespaces/ns1
-    creator: fleet
   labels:
     fleet.gke.io/actuate-deletion: "true"
     fleet.gke.io/actuation-active: "true"
     kubernetes.io/metadata.name: ns1
-    test-data: "true"
   name: ns1
 

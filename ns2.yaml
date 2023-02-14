@@ -1,7 +1,10 @@
 apiVersion: v1
 kind: Namespace
 metadata:
+  annotations:
+    creator: fleet
   labels:
     kubernetes.io/metadata.name: ns2
+    test-data: "true"
   name: ns2
 

@@ -1,8 +1,6 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  annotations:
-    fleet.gke.io/fns-resource-link: //gkehub.googleapis.com/projects/877381117738/locations/global/namespaces/ns5
   name: ns6
 
 

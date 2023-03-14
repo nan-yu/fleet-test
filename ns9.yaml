@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  labels:
-    fleet.gke.io/actuation-deletion: "false"
-  name: ns9
-

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    fleet.gke.io/created-by-actuation: "true"
+    fleet.gke.io/fns-resource-link: //gkehub.googleapis.com/projects/877381117738/locations/global/namespaces/ns11
+  labels:
+    fleet.gke.io/actuate-deletion: "true"
+    fleet.gke.io/actuation-active: "true"
+  name: ns11
+
